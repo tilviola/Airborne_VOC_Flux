@@ -1,5 +1,5 @@
 
-%uses croscabernet2021_lod, with smoothing and local maximum for FFT, and
+%uses wavecroscabernet2021_lod, with smoothing and local maximum for FFT, and
 %flux LOD
 %Dec 10, 2021 added moving mean
 % temporary change for flight 1: altagl
@@ -77,7 +77,7 @@ VertWindmsidx =(VertWindms == -9999  | VertWindms > 50);
 VertWindms(VertWindmsidx) = NaN;
  
 
- %% Calculate mg/m³ from ppb, and sampling intervals
+ %% Calculate mg/mÂ³ from ppb, and sampling intervals
 
 amus = readtable('amus.txt'); % get m/z values from txt exported from Tofware
 Peaknames = readtable('PeakTable.csv');
