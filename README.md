@@ -5,3 +5,4 @@
 #  uses parallel computing in Matlab for the handling of large numbers of VOCs 
 # calculates several versions of VOC flux detection limit
 # Code is not perfectly organized or commented, please let me know if you have any questions.
+# uses WAVELET.m, wave_signif.m, and other code that you can find at https://github.com/qdzhu/FLUX
